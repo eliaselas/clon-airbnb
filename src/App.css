@@ -4,4 +4,17 @@
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card--list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.App {
+  width: 500px;
 }
